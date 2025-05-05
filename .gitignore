@@ -1,17 +1,26 @@
-*.iml
-.idea
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Built application files
+*.apk
+*.ap_
+*.aab
 
+# IDE-specific files and directories
+.idea/
+*.iml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Gradle build system
+.gradle/
+/build/
+/out/
+
+# Local configuration files
+/local.properties
+
+# C/C++ build output
+.externalNativeBuild/
+.cxx/
+
+# Generated and temporary files
+/captures/
+
+# Miscellaneous
